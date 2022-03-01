@@ -1,0 +1,526 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Scoticlassicum. Vpon His Majesties happy arrivail [sic] in Scotland.</title>
+            <author>I. S.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1650</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 13 KB of XML-encoded text transcribed from 15 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B05912</idno>
+            <idno type="STC">Wing S44</idno>
+            <idno type="STC">ESTC R183110</idno>
+            <idno type="EEBO-CITATION">52612223</idno>
+            <idno type="OCLC">ocm 52612223</idno>
+            <idno type="VID">179529</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B05912)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 179529)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2793:1)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Scoticlassicum. Vpon His Majesties happy arrivail [sic] in Scotland.</title>
+                  <author>I. S.</author>
+               </titleStmt>
+               <extent>[14] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Gedeon Lithgow,</publisher>
+                  <pubPlace>Edenburgh :</pubPlace>
+                  <date>1650.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Signed at end: I.S.</note>
+                  <note>Imperfect: tightly bound with slight loss of text.</note>
+                  <note>Reproduction of the original in the National Library of Scotland.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Charles --  II, --  King of England, 1630-1685 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-05</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2009-05</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:179529:1"/>
+            <pb facs="tcp:179529:2" rendition="simple:additions"/>
+            <pb facs="tcp:179529:2"/>
+            <pb facs="tcp:179529:3"/>
+            <pb facs="tcp:179529:3"/>
+            <pb facs="tcp:179529:4"/>
+            <pb facs="tcp:179529:4"/>
+            <p>Scoticlaſsicum.</p>
+            <p>
+               <hi>Vpon His</hi> MAJESTIES happy arrivail in Scotland.</p>
+            <p>
+               <hi>EDENBVRGH.</hi>
+            </p>
+            <p>Printed by GEDEON LITHGOW, 1650.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:179529:5"/>
+            <pb facs="tcp:179529:5"/>
+            <lg n="1">
+               <head>1.</head>
+               <l>The Heavens have heard our groans at leng<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </l>
+               <l>Our Prayers have with God prevaild,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd all the damned plots are faild,</l>
+               <l>Which Hell did hatch with skill and ſtrength,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>reat <hi>Charles</hi> our Sunne (ecclypſt almoſt)</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hines fair on <hi>Caledonïas</hi> coaſt,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>is beames the blackeſt clouds doe cleare,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he Temples in loud thanks doe Sing,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he Caſtles pales of Cannon ring,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd Ioy doth eury Where appeare.</l>
+            </lg>
+            <lg n="2">
+               <head>2.</head>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ee how thoſe Helhounds Snarling ſtand,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hoſe branded Currs that bark'd of late,</l>
+               <l>Againſt this Cuntry, Church and State.</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd Curſe a farre this happy land:</l>
+               <l>Malicious Maſtifs, shame of men,</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hat durſt ſo long a King detaine</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rom thoſe that ſu'd Him even with teares;</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ou'd rather ſeen Him beg His bread</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hen <hi>Scotlands</hi> Croune ſet on His head,</l>
+               <l>Becauſe youd have no Credite there.</l>
+            </lg>
+            <pb facs="tcp:179529:6"/>
+            <lg n="3">
+               <head>3.</head>
+               <l>That Providence that Sweys the Spheres,</l>
+               <l>Did pull Him from your filthy clawes,</l>
+               <l>T<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o lett you ſit with gaping Iawes,</l>
+               <l>And belch out oathes diſdain full Ieers,</l>
+               <l>And if you be but worth a groat</l>
+               <l>To drink Confuſion to the Scott</l>
+               <l>Laſh <hi>Leſly,</hi> whip <hi>Argile,</hi> and Spare not,</l>
+               <l>They in their Kings juſt cauſe will goe</l>
+               <l>Where you dare not your faces Showe,</l>
+               <l>And though you hang your Selves they can not.</l>
+            </lg>
+            <lg n="4">
+               <head>4.</head>
+               <l>Goe with your renting raſcall rable</l>
+               <l>Of Colonells coynd Without cloakes,</l>
+               <l>Stout men in talk if words were Strokes,</l>
+               <l>And Valiant at a Wel Seru'd table:</l>
+               <l>Wee hate that damning curſing crue</l>
+               <l>Whom there oune Cruntry forth did Spew</l>
+               <l>And who have drawn theſe Iudgments doune</l>
+               <l>There wicked lives, blaſphemous toungs,</l>
+               <l>Oppreſſions, Villainies, and Wroungs</l>
+               <l>Haue to theſe fires the bellows bloune.</l>
+            </lg>
+            <pb facs="tcp:179529:6"/>
+            <lg n="5">
+               <head>5.</head>
+               <l>Wee hope with helpe of Heaven alone</l>
+               <l>With <hi>Scottish</hi> hands and Valour ſtout,</l>
+               <l>To beat thoſe bloody Rogues to route</l>
+               <l>And ſet King <hi>Charles</hi> on Englands Throne,</l>
+               <l>And with there blood to wash away</l>
+               <l>That blott they falſly on us lay</l>
+               <l>That wee for monney Sold the Father,</l>
+               <l>The World our Innocence shall ſee,</l>
+               <l>And that thoſe Traytors perfidie,</l>
+               <l>Deceaud our truſt, or Weaknes rather.</l>
+            </lg>
+            <lg n="6">
+               <head>6.</head>
+               <l>When England had a Parlement</l>
+               <l>Compleat, compoſd of honneſt men,</l>
+               <l>Ere knaves and Sectaries began</l>
+               <l>To work their damnable intent,</l>
+               <l>The King upon the Solemn oath</l>
+               <l>Of English Peeres was free to both,</l>
+               <l>The <hi>Scots</hi> from <hi>Tine</hi> marchd over <hi>Tweed:</hi>
+               </l>
+               <l>Then Rogues roſe up, and might made right,</l>
+               <l>The Souldier gainſt the State did fight</l>
+               <l>And His oune King a Captive lead.</l>
+            </lg>
+            <pb facs="tcp:179529:7"/>
+            <lg n="7">
+               <head>7.</head>
+               <l>The Coward Citty Cuckolds neſt,</l>
+               <l>For al her gunnes caſt ope Her gates,</l>
+               <l>And ſave the Houſes fored; the ſeatts</l>
+               <l>By Independant Knaues poſſeſt,</l>
+               <l>Slaves took the power into their hands,</l>
+               <l>The Nobles couchd at their Commands</l>
+               <l>The King was carried up and doune,</l>
+               <l>Till from the barre unto the blocke</l>
+               <l>The Sacred Head ſtopt to the ſtroke</l>
+               <l>Of a baſe Axe which felld the Croune.</l>
+            </lg>
+            <lg n="8">
+               <head>8.</head>
+               <l>Arch-Traytors, Tygers, Wolvish doggs,</l>
+               <l>That durſt the Lords annointed kill,</l>
+               <l>The Sacred bloud that you did Spill,</l>
+               <l>Shall droune your fields to bloudy boggs:</l>
+               <l>Heavens vengeance shall ſo heavy fall,</l>
+               <l>On you and your ſucceſſours all.</l>
+               <l>That <hi>England</hi> ſhall for ever mourne</l>
+               <l>The ground for corne ſoure Hemp shall yee<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>To Hang you up in every field,</l>
+               <l>And all your Trees shal gibbets turne.</l>
+            </lg>
+            <pb facs="tcp:179529:7"/>
+            <lg n="9">
+               <head>9.</head>
+               <l>The Royale ghoſt shall haunt your Hall,</l>
+               <l>And horrour shall your Soules affright,</l>
+               <l>Hells ſights in ſilence of the Night</l>
+               <l>Your guilty Conſciences shall gall.</l>
+               <l>The <hi>Scottish</hi> sword shall mowe you doune,</l>
+               <l>And when your carcaſſes are throune</l>
+               <l>On dunghills, for the ravens food,</l>
+               <l>The ſtinch of them shall raiſe a peſt</l>
+               <l>And famine shall conſume the reſt</l>
+               <l>To root out your unlucky brood.</l>
+            </lg>
+            <lg n="10">
+               <head>10.</head>
+               <l>But you good ſoules that ſighe to ſee</l>
+               <l>A Raſcall rable rule and Raigne,</l>
+               <l>And dare not for your lives complaine</l>
+               <l>Faint not, though you oppreſſed be.</l>
+               <l>The happy day wil shortly come,</l>
+               <l>Shall bring your King triumphant home</l>
+               <l>And bring the Golden Age againe</l>
+               <l>But London muſt be firſt lay'd lowe</l>
+               <l>That <hi>Charles</hi> may ore her ashes goe</l>
+               <l>To hang up <hi>Cromwell</hi> in a chaine.</l>
+            </lg>
+            <pb facs="tcp:179529:8"/>
+            <lg n="11">
+               <head>11.</head>
+               <l>Rouſe up you drouſy peevish Peeres,</l>
+               <l>For shame be not for ever ſlaves</l>
+               <l>Your place and bloud more Courage craves,</l>
+               <l>Degener not from your Forebe'ers,</l>
+               <l>They next to God did love there King,</l>
+               <l>From whom there Honours all did Spring</l>
+               <l>Will you by Coxcombs be Commanded!</l>
+               <l>By Souters, Taylors, Coblers, Curres,</l>
+               <l>Then quite your golden Swords and Spurre<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>And take Some Trade to underſtand it.</l>
+            </lg>
+            <lg n="12">
+               <head>12.</head>
+               <l>Baſe Gentrie blushe, and hide your faces,</l>
+               <l>To ſerve ſuch Clounes as keep you lowe,</l>
+               <l>And Squeaſe your ſubſtance from you ſo</l>
+               <l>That they are Lords, you have but laces</l>
+               <l>Yet will you Suffer and ſit ſtill,</l>
+               <l>And give your monney with good will,</l>
+               <l>Who grudgd at ſubſidies before?</l>
+               <l>Packhorſes vvho should pitty you,</l>
+               <l>Since your Content your backs to bowe</l>
+               <l>Wee vvishe your burthens may be more.</l>
+            </lg>
+            <pb facs="tcp:179529:8"/>
+            <lg n="13">
+               <head>13.</head>
+               <l>Levites dare you lift up your hands</l>
+               <l>To beg a bleſſing on theſe men,</l>
+               <l>Whom their Dread Soveraignes bloud doth ſtayne,</l>
+               <l>And cries for Vengeance on the Land?</l>
+               <l>Are you Seduced all, and led</l>
+               <l>By your neew <hi>Mahomet</hi> that blade,</l>
+               <l>The Prophet <hi>Peters, Hugh</hi> that cries?</l>
+               <l>A ſtubborne ſpirit rules in Him</l>
+               <l>When ſack in ſpires him to the brim</l>
+               <l>His Lord and Maiſter Hee denyes.</l>
+            </lg>
+            <lg n="14">
+               <head>14.</head>
+               <l>Preach woe and Iudgment hanging ore</l>
+               <l>That curſed crue that killd their King,</l>
+               <l>And all thoſe plagues that Heaven will bring</l>
+               <l>Vpon thoſe Murtherers, thunder, roare.</l>
+               <l>Tell Traytor <hi>Fairfax</hi> to his face,</l>
+               <l>Though he have now layd doune his Place</l>
+               <l>Yet from Gods hand He cannot flee,</l>
+               <l>And pray that they may ne'er repent,</l>
+               <l>That did there Princes death conſent</l>
+               <l>But that the innocent be free.</l>
+            </lg>
+            <pb facs="tcp:179529:9"/>
+            <lg n="15">
+               <head>15.</head>
+               <l>Poore Poeple muſled, and miſsled,</l>
+               <l>That muſt a monſter now adore</l>
+               <l>Shake of thy yoak and grone no more</l>
+               <l>In ſlavery but ſett up thy head.</l>
+               <l>Cal for your King, hang up thoſe Knaves,</l>
+               <l>That ſuck your bloud and make you ſlaves</l>
+               <l>There is no ſervice to a King:</l>
+               <l>Hee is your Father and your Lord</l>
+               <l>Ordaind of God to ſwey the ſword</l>
+               <l>His Raigne shall bleſſings to you bring.</l>
+            </lg>
+            <lg n="16">
+               <head>16.</head>
+               <l>Thou souldier that haſt ſold thy ſoule</l>
+               <l>For Lawles liberty and gaine</l>
+               <l>A Tyrant Monſter to maintaine</l>
+               <l>With many heads, moſt ougly foule,</l>
+               <l>Thy wickednes and woefull wroung</l>
+               <l>Shall find the juſt reward ere loung</l>
+               <l>When thou diſmembred torne shalt lie</l>
+               <l>And curſe theſe Rogues that made thee riſe,</l>
+               <l>Againſt thy King, before whoſe Eyes</l>
+               <l>Thou gaſpes in gore but canſt not die.</l>
+            </lg>
+            <pb facs="tcp:179529:9"/>
+            <lg n="17">
+               <head>17.</head>
+               <l>Vp <hi>Scotland</hi> then thy Standards ſpread,</l>
+               <l>And follow forth / Lord of Hoaſts,</l>
+               <l>Who Laughs at bragging <hi>Pharos</hi> boaſts,</l>
+               <l>And through the ſeas his oune doth lead,</l>
+               <l>His hand from heaven shall lead thee on</l>
+               <l>To tread thyne enemys necks upon,</l>
+               <l>And ore their bellys Conquering goe</l>
+               <l>Till Thou ſet <hi>Charles</hi> vpon his Throne,</l>
+               <l>And see thoſe Traytors every one</l>
+               <l>Hang'd quartered, drawne, thy Zeall to showe.</l>
+            </lg>
+            <lg n="18">
+               <head>18.</head>
+               <l>And Thou o Lord! goe ſtill before.</l>
+               <l>Armd with Thy Thunders fire and flamme,</l>
+               <l>To put his ennemys to ſhame</l>
+               <l>That wil not his juſt power a dore,</l>
+               <l>Send Thy deſtroying Angell doune</l>
+               <l>The Rebell campe in bloud to droune,</l>
+               <l>But guard thyne oune with Walls of fire</l>
+               <l>Shoot Lightnings in their faces Lord,</l>
+               <l>And ſtrike them blinde untill the Sword</l>
+               <l>Have drunk their bloud at full deſire</l>
+            </lg>
+            <pb facs="tcp:179529:10"/>
+            <lg n="19">
+               <head>19.</head>
+               <l>Goe on Great King God Thee deſend</l>
+               <l>And Croune thy head with Victorie.</l>
+               <l>That all thine ennemys may ſee</l>
+               <l>Heavens bleſſing doth thy armes attend.</l>
+               <l>May thy juſt Sword Sharp Vengeance take</l>
+               <l>Of thoſe that Seek thy power to shake</l>
+               <l>And cutt the cords of Conjuration,</l>
+               <l>And may Thy Scepter break and bruſe</l>
+               <l>All that thy juſt Command refuſe.</l>
+               <l>And thou be deare every Nation.</l>
+            </lg>
+            <lg n="20">
+               <head>20.</head>
+               <l>Defend the Church shee is Thy Mother</l>
+               <l>Her bleſſing shall upon Thee be,</l>
+               <l>Her Prayers have preſerved Thee,</l>
+               <l>God heares Her Still above all other,</l>
+               <l>Let no proud Prelates creep within</l>
+               <l>Her gates, Strange guiſes te begin,</l>
+               <l>But have ore Such a Watchfull Eye</l>
+               <l>Theſe Wolves did Waſte the Church of late</l>
+               <l>And troubled Sore both Church and State</l>
+               <l>The Load did heavy on Her lie.</l>
+            </lg>
+            <pb facs="tcp:179529:10"/>
+            <lg n="21">
+               <head>21.</head>
+               <l>Maintain the Lawes, and make more good,</l>
+               <l>Doe Iuſtice as becomes Thy place,</l>
+               <l>And be no niggard of thy Grace,</l>
+               <l>Nor Lavish of Thy ſubjects bloud:</l>
+               <l>So shall Thy throne eſtablishd be</l>
+               <l>In Righteouſnes and Equitie</l>
+               <l>And Plenty shall heap up Thy ſtore.</l>
+               <l>Thy Lands shall florish, and Thy ships</l>
+               <l>Shall ſafly plough the Swelling deeps,</l>
+               <l>And fill with forrain good Thy shore.</l>
+            </lg>
+            <lg n="22">
+               <head>22.</head>
+               <l>Brave Nobles that from ancient names</l>
+               <l>Draw your deſcent and, pedegree,</l>
+               <l>Whoſe worthy featts of Chevalrie</l>
+               <l>Left laſting Honours to theſe Times,</l>
+               <l>What fair occaſion haue you now</l>
+               <l>Your Loyall Courage for to showe</l>
+               <l>In Service of your noble King?</l>
+               <l>Heavens never bleſt a better cauſe</l>
+               <l>God calls you, and your duty drawes,</l>
+               <l>Then bravely forth your banners bring,</l>
+            </lg>
+            <pb facs="tcp:179529:11"/>
+            <lg n="23">
+               <head>23.</head>
+               <l>Stand up in armes all honneſt Scots.</l>
+               <l>Revenge your King, His Crounes recouer,</l>
+               <l>And Conquerours march all <hi>England</hi> over,</l>
+               <l>To ſheath your Swords in Rebells throats.</l>
+               <l>Pull thoſe uſurping Traytours doune</l>
+               <l>And hang them up, then burne there Toune</l>
+               <l>That nothing may remayne at all,</l>
+               <l>Then ſalt upon the aſhes ſowe</l>
+               <l>That neuer graſſe again may growe,</l>
+               <l>Where <hi>London</hi> Stood nor yet <hi>Whitehall.</hi>
+               </l>
+            </lg>
+            <lg n="24">
+               <head>24.</head>
+               <l>Great King of Kings preſerve our King</l>
+               <l>And guard Him with Thy Angells bright,</l>
+               <l>Couer His head when Hee Shall fight:</l>
+               <l>And to His breſt a buckler bring:</l>
+               <l>Make all His ennemys ſall back,</l>
+               <l>All Strength and Courage from them take</l>
+               <l>And let His Sword be drunk with bloud,</l>
+               <l>That when Thy hand hath Scattered them,</l>
+               <l>He may give glorie to Thy Name,</l>
+               <l>And loung Raigne, Happy, luſt, and Good.</l>
+            </lg>
+            <pb facs="tcp:179529:11"/>
+            <pb facs="tcp:179529:12"/>
+            <pb facs="tcp:179529:12"/>
+            <pb facs="tcp:179529:13"/>
+            <pb facs="tcp:179529:13"/>
+            <pb facs="tcp:179529:14"/>
+            <pb facs="tcp:179529:14"/>
+            <pb facs="tcp:179529:15"/>
+            <p>
+               <figure/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
